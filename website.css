@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+header {
+    text-align: left;
+    color: #fff;
+    padding: 20px;
+}
+
+.toggler {
+    background-color: #ffffff !important;
+}
+
+.heading {
+    color: #2651de;
+    font-size: 38px;
+    font-family: "Bree Serif";
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+
+.list-container {
+
+    list-style-type: none;
+    padding: 0;
+
+}
+
+@media (min-width:768px) {
+    .list-container {
+        display: flex;
+    }
+}
+
+.list-item {
+    margin-right: 15px;
+    text-decoration: none;
+
+}
+
+@media (max-width: 768px) {
+    .list-item {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+}
+
+.anchor-ele {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.anchor-ele:hover {
+    color: #3f5ecc;
+}
+
+@media (max-width:575px) {
+    .anchor-ele {
+        font-size: 10px;
+
+    }
+}
+
+.bg-holiday-packages-heading {
+    color: #ed6221;
+    font-size: 28px;
+    font-family: "Roboto";
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.bg-holiday-package {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:768px) {
+    .bg-holiday-package {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+}
+
+.holiday-package {
+    max-width: 450px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #89e8d0;
+    height: auto;
+
+}
+
+.holiday-package-heading {
+    color: #000;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.holiday-package-description {
+    color: #000;
+    font-size: 16px;
+    font-family: "Roboto";
+
+}
+
+.holiday-price {
+    color: red;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.button {
+    height: 34px;
+    width: 110px;
+    color: #000;
+    background-color: #21ed25;
+    border-radius: 10px;
+    border: 1px solid #bbedec;
+    outline: none;
+    cursor: pointer;
+}
+
+.bg-flight-Booking-heading {
+    color: #ed6221;
+    font-size: 28px;
+    font-family: "Roboto";
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.flight-search {
+    padding: 20px;
+
+}
+
+.search-flight-side-heading {
+    color: #185d99;
+    font-size: 20px;
+    font-family: "Roboto";
+    margin-left: 10px;
+}
+
+form {
+    padding-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #b3f1f2;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 800px;
+}
+
+.label {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.inputEle {
+    max-width: 400px;
+    padding: 6px;
+    margin-bottom: 15px;
+}
+
+.search-button {
+    height: 34px;
+    width: 100px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #1d7ea8;
+    border: 1px solid grey;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.hotel-bookings {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:768px) {
+    .hotel-bookings {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+}
+
+.bg-hotel-booking-heading {
+    color: #ed6221;
+    font-size: 28px;
+    font-family: "Roboto";
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.hotel-container {
+    max-width: 450px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    height: auto;
+
+}
+
+.hotel-price {
+    color: red;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.hotel-description {
+    color: grey;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.bg-packages-booking-heading {
+    color: #ed6221;
+    font-size: 28px;
+    font-family: "Roboto";
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.packages-booking-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:768px) {
+    .packages-booking-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+}
+
+.package-container {
+    max-width: 450px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #dae8b5;
+    height: auto;
+}
+
+.package-name {
+    color: #000;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.package-description {
+    color: grey;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.package-price {
+    color: red;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.footer {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.copy-rights {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
